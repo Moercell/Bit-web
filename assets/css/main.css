@@ -1,0 +1,463 @@
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Fira Sans"), local("FiraSans-Regular"), url(http://fonts.gstatic.com/s/firasans/v5/EjsrzDkQUQCDwsBtLpcVQZBw1xU1rKptJj_0jans920.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Fira Sans Bold"), local("FiraSans-Bold"), url(http://fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOhampu5_7CjHW5spxoeN3Vs.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Fira Mono"), local("FiraMono"), url(http://fonts.gstatic.com/s/firamono/v3/SlRWfq1zeqXiYWAN-lnG-pBw1xU1rKptJj_0jans920.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden],
+template {
+  display: none; }
+
+a {
+  background-color: transparent; }
+
+a:active,
+a:hover {
+  outline: 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b,
+strong {
+  font-weight: bold; }
+
+dfn {
+  font-style: italic; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+pre {
+  overflow: auto; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+button {
+  overflow: visible; }
+
+button,
+select {
+  text-transform: none; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input {
+  line-height: normal; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto; }
+
+optgroup {
+  font-weight: bold; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+body {
+  background-color: white;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: "Fira Sans", sans-serif;
+  color: #666;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%; }
+
+img::-moz-selection {
+  background: transparent; }
+
+img::selection {
+  background: transparent; }
+
+img::-moz-selection {
+  background: transparent; }
+
+body {
+  -webkit-tap-highlight-color: transparent; }
+
+a {
+  color: #0074D9;
+  text-decoration: none;
+  outline: 0; }
+  a:hover, a:focus {
+    color: #40a6ff; }
+
+.gigantic, .huge, .large, .bigger, .big,
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+  font-weight: bold; }
+
+.gigantic {
+  font-size: 110px;
+  line-height: 1.09;
+  letter-spacing: -2px; }
+
+.huge, h1 {
+  font-size: 68px;
+  line-height: 1.05;
+  letter-spacing: -1px; }
+
+.large, h2 {
+  font-size: 42px;
+  line-height: 1.14; }
+
+.bigger, h3 {
+  font-size: 26px;
+  line-height: 1.38; }
+
+.big, h4 {
+  font-size: 22px;
+  line-height: 1.38; }
+
+.small, small {
+  font-size: 10px;
+  line-height: 1.2; }
+
+p {
+  margin: 0 0 20px 0; }
+
+em {
+  font-style: italic; }
+
+strong {
+  font-weight: bold; }
+
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0; }
+
+.flex {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.chip {
+  width: 400px;
+  -webkit-perspective: 600px;
+          perspective: 600px; }
+  .chip .chip-back {
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/chip-bg.png);
+    background-size: cover;
+    -webkit-transform: rotateX(45deg);
+            transform: rotateX(45deg);
+    -webkit-filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.5));
+            filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.5)); }
+  .chip .chip-front {
+    width: 400px;
+    height: 400px;
+    margin: -400px 0 0 0;
+    -webkit-transform: rotateX(45deg);
+            transform: rotateX(45deg); }
+    .chip .chip-front .cf1, .chip .chip-front .cf2, .chip .chip-front .cf3, .chip .chip-front .cf4 {
+      background-size: cover;
+      width: 200px;
+      height: 200px;
+      float: right;
+      -webkit-transition: 800ms ease-in-out;
+              transition: 800ms ease-in-out;
+      -webkit-filter: drop-shadow(0px 3px 5px transparent);
+              filter: drop-shadow(0px 3px 5px transparent); }
+    .chip .chip-front .cf1 {
+      background-image: url(../img/chip-cf1.png); }
+    .chip .chip-front .cf2 {
+      background-image: url(../img/chip-cf2.png); }
+    .chip .chip-front .cf3 {
+      background-image: url(../img/chip-cf3.png); }
+    .chip .chip-front .cf4 {
+      background-image: url(../img/chip-cf4.png); }
+    .chip .chip-front .cf1-on {
+      -webkit-transform: translate(75px, -75px);
+          -ms-transform: translate(75px, -75px);
+              transform: translate(75px, -75px);
+      -webkit-transition: 800ms ease-in-out;
+              transition: 800ms ease-in-out; }
+    .chip .chip-front .cf2-on {
+      -webkit-transform: translate(-75px, -75px);
+          -ms-transform: translate(-75px, -75px);
+              transform: translate(-75px, -75px);
+      -webkit-transition: 800ms ease-in-out;
+              transition: 800ms ease-in-out; }
+    .chip .chip-front .cf3-on {
+      -webkit-transform: translate(75px, 75px);
+          -ms-transform: translate(75px, 75px);
+              transform: translate(75px, 75px);
+      -webkit-transition: 800ms ease-in-out;
+              transition: 800ms ease-in-out; }
+    .chip .chip-front .cf4-on {
+      -webkit-transform: translate(-75px, 75px);
+          -ms-transform: translate(-75px, 75px);
+              transform: translate(-75px, 75px);
+      -webkit-transition: 800ms ease-in-out;
+              transition: 800ms ease-in-out; }
+  .chip .chip-menu {
+    width: 170px;
+    height: 170px;
+    margin: 120px 0 0 120px;
+    position: absolute;
+    z-index: 0; }
+    .chip .chip-menu .cm1, .chip .chip-menu .cm2, .chip .chip-menu .cm3, .chip .chip-menu .cm4 {
+      width: 80px;
+      height: 80px;
+      float: left; }
+    .chip .chip-menu ul, .chip .chip-menu li {
+      margin: 0;
+      padding: 0; }
+    .chip .chip-menu li {
+      list-style: none;
+      text-align: center; }
+    .chip .chip-menu a {
+      color: #fff;
+      text-decoration: none; }
+    .chip .chip-menu a:hover {
+      color: red; }
+
+@supports (overflow: -webkit-marquee) and (justify-content: inherit) {
+  .chip {
+    -webkit-perspective: 0px;
+            perspective: 0px; }
+    .chip .chip-back {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg); }
+    .chip .chip-front {
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg); } }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: white;
+  overflow-x: hidden; }
+
+.page-home {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100%; }
+
+.split {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-filter: opacity(60%);
+          filter: opacity(60%); }
+  .split section {
+    padding: 20px;
+    box-sizing: border-box; }
+    .split section h2 {
+      color: white;
+      margin: 10px; }
+    .split section p {
+      color: white; }
+  .split section.shop {
+    background-image: url(../img/shop.png);
+    background-size: cover;
+    width: 50%;
+    height: 50%; }
+  .split section.leistungen {
+    background-image: url(../img/leistungen.png);
+    background-size: cover;
+    width: 50%;
+    height: 50%; }
+  .split section.team {
+    background-image: url(../img/team.png);
+    background-size: cover;
+    width: 50%;
+    height: 50%; }
+  .split section.stuf {
+    background-image: url(../img/stuf.png);
+    background-size: cover;
+    width: 50%;
+    height: 50%; }
+
+.MSIE {
+  text-align: center;
+  display: none; }
+
+.MSIE-on {
+  display: block; }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .MSIE {
+    display: block; }
+
+  .page-home {
+    display: none; }
+
+  a {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    padding: 20px 40px;
+    color: lightblue;
+    font-size: 14pts; }
+
+  h1 {
+    color: lightblue;
+    font-size: 20pt;
+    margin: 50px 0; } }

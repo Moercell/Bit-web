@@ -1,0 +1,87 @@
+html,body
+  margin: 0
+  padding: 0
+  height: 100%
+  background-color: white
+  overflow-x: hidden
+
+.page-home
+  position: relative
+  width: 100%
+  height: 100%
+  min-height: 100%
+
+.split
+  position: absolute
+  width: 100%
+  height: 100%
+  display: flex
+  flex-wrap: wrap
+  filter: opacity(60%)
+
+  section
+    padding: 20px
+    box-sizing: border-box
+
+    h2
+      color: white
+      margin: 10px
+
+    p
+      color: white
+
+
+  section.shop
+    background-image: url(../img/shop.png)
+    background-size: cover
+    width: 50%
+    height: 50%
+
+  section.leistungen
+    background-image: url(../img/leistungen.png)
+    background-size: cover
+    width: 50%
+    height: 50%
+
+  section.team
+    background-image: url(../img/team.png)
+    background-size: cover
+    width: 50%
+    height: 50%
+
+  section.stuf
+    background-image: url(../img/stuf.png)
+    background-size: cover
+    width: 50%
+    height: 50%
+
+.MSIE
+  text-align: center
+  display: none
+
+.MSIE-on
+  display: block
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+  .MSIE
+    display: block
+  .page-home
+    display: none
+  a
+    border: 2px solid lightblue
+    border-radius: 5px
+    padding: 20px 40px
+    color: lightblue
+    font-size: 14pts
+
+  h1
+    color: lightblue
+    font-size: 20pt
+    margin: 50px 0
+
+
+
+
+
+//space
