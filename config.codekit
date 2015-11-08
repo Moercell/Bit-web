@@ -1439,50 +1439,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/chip-cb1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12235,
-		"inputAbbreviatedPath": "\/assets\/img\/chip-cb1.png",
-		"outputAbbreviatedPath": "\/assets\/img\/chip-cb1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/chip-cb2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11823,
-		"inputAbbreviatedPath": "\/assets\/img\/chip-cb2.png",
-		"outputAbbreviatedPath": "\/assets\/img\/chip-cb2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/chip-cb3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11882,
-		"inputAbbreviatedPath": "\/assets\/img\/chip-cb3.png",
-		"outputAbbreviatedPath": "\/assets\/img\/chip-cb3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/chip-cb4.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/assets\/img\/chip-cb4.png",
-		"outputAbbreviatedPath": "\/assets\/img\/chip-cb4.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/img\/chip-cf1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1534,17 +1490,6 @@
 		"initialSize": 370425,
 		"inputAbbreviatedPath": "\/assets\/img\/leistungen.png",
 		"outputAbbreviatedPath": "\/assets\/img\/leistungen.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/logo01.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1909,
-		"inputAbbreviatedPath": "\/assets\/img\/logo01.png",
-		"outputAbbreviatedPath": "\/assets\/img\/logo01.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
